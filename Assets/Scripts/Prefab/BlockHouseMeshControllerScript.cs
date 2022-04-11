@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Prefab
 {
-    public class BlockHouseScript : MonoBehaviour
+    public class BlockHouseMeshControllerScript : MonoBehaviour
     {
         public GameObject _door;
         

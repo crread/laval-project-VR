@@ -11,20 +11,15 @@ namespace Scene
         [SerializeField] public List<GameObject> _boardHouse;
 
         [SerializeField] private GameObject _housePrefab;
-        
-        void Start()
-        {
-        
-        }
 
         void Update()
         {
         
         }
 
-        private void BuildHouse()
+        private void BuildHouse(Vector3 position)
         {
-            
+            Instantiate(_housePrefab, position, Quaternion.identity);
         }
     }
 }
