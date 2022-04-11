@@ -6,6 +6,10 @@ TagManager:
   tags:
   - projectile
   - FxTemporaire
+<<<<<<< HEAD
+=======
+  - BlockHouse
+>>>>>>> e44809126b067474a7f472981e6839b4401efa86
   - Token
   layers:
   - Default
@@ -14,7 +18,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - BlockHouse
   - 
   - 
   - 
