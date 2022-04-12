@@ -91,6 +91,7 @@ GameObject:
   - component: {fileID: 2292336394533852044}
   - component: {fileID: 5424138567482039043}
   - component: {fileID: 6115462786472130232}
+  - component: {fileID: 151468666564835866}
   m_Layer: 0
   m_Name: PlaceHolder
   m_TagString: Untagged
@@ -404,6 +405,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a63f0e107f095a4c95eb66966a6bc67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneManager: {fileID: 2862869935513546592, guid: 7e71b5c604fa1f6498242ed3410b8b1c, type: 3}
 --- !u!54 &6115462786472130232
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -418,5 +420,18 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!65 &151468666564835866
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5402384077644857961}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.5, y: 0.5, z: -0.5}

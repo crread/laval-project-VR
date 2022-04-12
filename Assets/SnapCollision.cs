@@ -17,7 +17,7 @@ public class SnapCollision : MonoBehaviour
         
         if (other.gameObject.CompareTag("Token"))
         {
-            var idx = sceneManager.GetIndexBoardTokenPosition(other.gameObject);
+           // var idx = sceneManager.GetIndexBoardTokenPosition(other.gameObject);
             
 
             other.gameObject.GetComponent<LockToPoint>().snapTo = transform;
